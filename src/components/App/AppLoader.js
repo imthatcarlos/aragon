@@ -128,7 +128,7 @@ AppLoader.propTypes = {
   appLoading: PropTypes.bool.isRequired,
   appsLoading: PropTypes.bool.isRequired,
   children: PropTypes.node,
-  currentAppName: PropTypes.string.isRequired,
+  currentAppName: PropTypes.string,//.isRequired,
   daoLoading: PropTypes.bool.isRequired,
   instanceId: PropTypes.string,
 }
